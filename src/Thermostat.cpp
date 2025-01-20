@@ -2,11 +2,11 @@
 #include "Thermostat.hpp"
 #include <cmath>
 
-void Thermostat::setTarget (double T){
+void Thermostat::setTarget(double T) {
   target_ = T;
 }
 
-void Thermostat::setHyst (double H){
+void Thermostat::setHyst(double H) {
   hyst_ = H;
 }
 
