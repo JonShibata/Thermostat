@@ -17,7 +17,7 @@ class Thermostat {
   int getControlOutput();
 
   private:
-  double target_ = 80.0;
+  double target_ = 350.0;
   double hyst_ = 3.0;
   double filterConst_ = 0.5;
   double filteredTemp_ = 0.0;
