@@ -1,4 +1,7 @@
 
+
+#ifdef UNIT_TEST
+
 #include <gtest/gtest.h>
 #include "../src/Thermostat.hpp"
 
@@ -14,3 +17,5 @@ int main(int argc, char** argv) {
   ::testing::InitGoogleTest(&argc, argv);
   return RUN_ALL_TESTS();
 }
+
+#endif

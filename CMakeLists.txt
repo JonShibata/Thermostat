@@ -8,6 +8,7 @@ add_library(Thermostat src/Thermostat.cpp)
 target_compile_options(Thermostat PUBLIC -g)
 
 # Add Google Test
+add_definitions(-DUNIT_TEST)
 find_package(GTest REQUIRED)
 include_directories(${GTEST_INCLUDE_DIRS})
 
